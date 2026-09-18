@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "OQZUMI: The Climb",
+    "slug": "oqzumi-the-climb",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#FAFBFF"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.oqzumi.theclimb"
+    },
+    "android": {
+      "package": "com.oqzumi.theclimb",
+      "adaptiveIcon": {
+        "backgroundColor": "#FAFBFF"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
