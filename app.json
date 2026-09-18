@@ -9,7 +9,9 @@
     "splash": {
       "backgroundColor": "#FAFBFF"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.oqzumi.theclimb"
@@ -22,6 +24,11 @@
     },
     "web": {
       "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9033d828-2368-410e-8466-4d14d6e919b6"
+      }
     }
   }
 }
